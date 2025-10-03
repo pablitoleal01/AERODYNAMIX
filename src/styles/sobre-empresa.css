@@ -1,0 +1,84 @@
+#sobre-empresa {
+  padding: 100px 8%;
+  text-align: center;
+  background: #dfdede;
+}
+
+.section-titulo {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.section-subtitulo {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  background: linear-gradient(180deg, #007bff 0%, #1c1c1c 50%);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+.accordion-header {
+  width: 100%;
+  text-align: left;
+  background: #007bff;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.accordion-header i {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active i {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #1c1c1c;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0 20px;
+  line-height: 1.6;
+  transition: max-height 0.1s ease, padding 0.1s ease;
+}
+
+.accordion-content.open {
+  max-height: 300px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .accordion-header {
+    font-size: 1.2rem;
+    padding: 18px;
+  }
+
+  .accordion-content {
+    font-size: 0.95rem;
+  }
+}
