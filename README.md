@@ -21,6 +21,7 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 
 
+
 ⚙️ Funcionalidades
 
 📱 Menu de navegação responsivo: disponível também no mobile, com animação de abertura e fechamento. Ao clicar em cada item do menu, o usuário é direcionado automaticamente para a seção correspondente da landing page.
