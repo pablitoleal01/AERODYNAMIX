@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERODYNAMIX</title>
+
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/produtos.css">
+    <link rel="stylesheet" href="src/styles/depoimentos.css">
+    <link rel="stylesheet" href="src/styles/sobre-empresa.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img src="src/imagens/logo_aerodynamix.png" class="nav_logo" alt="Logo Aerodynamix">
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#produtos">Produtos</a></li>
+                <li class="nav-item"><a href="#depoimentos">Depoimentos</a></li>
+                <li class="nav-item"><a href="#sobre-empresa">Sobre a Empresa</a></li>
+            </ul>
+            <botao class="botao-default">Contato</botao>
+            <botao id="mobile_botao"><i class="fa-solid fa-bars"></i></botao>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#produtos">Produtos</a></li>
+                <li class="nav-item"><a href="#depoimentos">Depoimentos</a></li>
+                <li class="nav-item"><a href="#sobre-empresa">Sobre a Empresa</a></li>
+            </ul>
+            <botao class="botao-default">Contato</botao>
+        </div>
+    </header>
+
+    <section id="home">
+        <div id="bloco-inicial">
+            <h1 class="titulo">Tecnologia que <span>voa</span></h1>
+            <p class="descricao">Drones modernos para filmagens, esportes e reconhecimento aéreo.</p>
+            <div id="bloco-inicial_botoes">
+                <a href="#produtos" class="botao-default">Ver Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-botao" id="radio1">
+                <input type="radio" name="radio-botao" id="radio2">
+                <input type="radio" name="radio-botao" id="radio3">
+                <div class="slide first">
+                    <img src="src/imagens/imagem-carrosel1.png">
+                </div>
+                <div class="slide">
+                    <img src="src/imagens/imagem-carrosel2.png">
+                </div>
+                <div class="slide">
+                    <img src="src/imagens/imagem-carrosel3.png">
+                </div>
+                <div class="auto-nav">
+                    <div class="auto-botao1"></div>
+                    <div class="auto-botao2"></div>
+                    <div class="auto-botao3"></div>
+                </div>
+            </div>
+            <div class="manual-nav">
+                <label for="radio1" class="manual-botao"></label>
+                <label for="radio2" class="manual-botao"></label>
+                <label for="radio3" class="manual-botao"></label>
+            </div>
+        </div>
+
+        <h2 class="section-titulo">Nossos Produtos</h2>
+        <p class="section-subtitulo">Tecnologia de ponta para todas as situações</p>
+
+        <div class="produto-grid">
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-avata-2.png" alt="DJI Avata 2">
+                </div>
+                <h3>DJI Avata 2</h3>
+                <p class="produto-desc">Drone FPV de alta performance, voltado para voos imersivos e manobras
+                    acrobáticas, com câmera 12 MP em sensor 1/1.3″ que grava até 4K/100 fps.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(200+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 4.500,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-flip-2.jpg" alt="DJI Flip 2">
+                </div>
+                <h3>DJI Flip 2</h3>
+                <p class="produto-desc">Drone compacto e dobrável, ideal para quem precisa de portabilidade sem abrir
+                    mão de qualidade — geralmente com câmera de ~12 MP, vídeo até 4K e design leve.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(150+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 3.200,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-matrice-400.jpg" alt="DJI Matrice 400">
+                </div>
+                <h3>DJI Matrice 400</h3>
+                <p class="produto-desc">Drone profissional robusto, projetado para missões industriais e mapeamento
+                    aéreo, com múltiplas opções de carga útil, sensores e longo tempo de voo.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(300+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 7.800,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-mavic-4-pro.webp" alt="DJI Mavic 4 Pro">
+                </div>
+                <h3>DJI Mavic 4 Pro</h3>
+                <p class="produto-desc">Drone cinematográfico com gimbal 360°, três câmeras (incluindo sensor Hasselblad
+                    100 MP) e autonomia de voo longa (até 51 minutos).</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(250+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 6.200,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-mini-3.webp" alt="DJI Mini 3">
+                </div>
+                <h3>DJI Mini 3</h3>
+                <p class="produto-desc">Drone ultra leve, pesando menos de 249 g, com gimbal que permite rotação
+                    vertical (ideal para redes sociais), gravação em 4K/30 fps e funções inteligentes.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(400+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 2.500,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="src/imagens/dji-mini-5-pro.webp" alt="DJI Mini 5 Pro">
+                </div>
+                <h3>DJI Mini 5 Pro</h3>
+                <p class="produto-desc">Drone topo de linha na categoria leve, com sensor de 1″ 50 MP, gravação 4K/60
+                    fps HDR, detecção omnidirecional e autonomia de voo até 36 minutos (ou 52 min com bateria plus).</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(230+)</span>
+                </div>
+                <div class="preco-cart">
+                    <span class="preco">R$ 3.800,00</span>
+                    <botao class="botao-default"><i class="fa-solid fa-cart-shopping"></i></botao>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h2 class="section-titulo">Depoimentos</h2>
+        <p class="section-subtitulo">Experiências reais, voos inesquecíveis.</p>
+
+        <div class="depoimentos-container">
+            <div class="depoimentos-imagem">
+                <img src="src/imagens/dji-mavic-4-pro_depoimentos.webp" alt="Drone voando">
+            </div>
+
+            <div class="depoimentos-content">
+                <div class="depoimentos-card">
+                    <div class="depoimentos-header">
+                        <img src="src/imagens/perfil.jpg" alt="Foto perfil" class="perfil-img">
+                        <div>
+                            <h3>Thiago Nunes</h3>
+                            <p>Aventureiro e Atleta Amador</p>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="depoimentos-text">
+                        Uso meu drone em trilhas e esportes radicais, onde o terreno é sempre desafiador. Já caiu,
+                        enfrentou vento forte e até chuva leve — e segue voando firme. A resistência dele realmente me
+                        surpreendeu.
+                    </p>
+                </div>
+
+                <div class="depoimentos-card">
+                    <div class="depoimentos-header">
+                        <img src="src/imagens/perfil.jpg" alt="Foto perfil" class="perfil-img">
+                        <div>
+                            <h3>Mariana Castro</h3>
+                            <p>Criadora de Conteúdo</p>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="depoimentos-text">
+                        Nunca imaginei que teria imagens tão nítidas em meus vídeos de viagem. A qualidade da câmera é
+                        impressionante e me permite capturar detalhes que antes passavam despercebidos.
+                    </p>
+                </div>
+
+                <div class="depoimentos-card">
+                    <div class="depoimentos-header">
+                        <img src="src/imagens/perfil.jpg" alt="Foto perfil" class="perfil-img">
+                        <div>
+                            <h3>Ricardo Azevedo</h3>
+                            <p>Fotógrafo Profissional</p>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="depoimentos-text">
+                        Comprei o drone há mais de um ano e ele continua funcionando como se fosse novo. A bateria dura
+                        muito bem, a manutenção é simples e a vida útil compensa cada centavo investido.
+                    </p>
+                </div>
+                <a href="#" class="botao-default">
+                    <i class="fa-solid fa-globe"></i>
+                    Ver mais depoimentos
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-empresa">
+        <h2 class="section-titulo">Sobre a empresa</h2>
+        <p class="section-subtitulo">Onde criatividade encontra tecnologia de ponta.</p>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <botao class="accordion-header">
+                    Como a empresa foi criada?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </botao>
+                <div class="accordion-content">
+                    <p>
+                        Nossa jornada começou com a paixão por tecnologia e pelo poder das imagens aéreas. Um pequeno
+                        time de entusiastas de drones se uniu com o objetivo de levar inovação e acessibilidade para
+                        criadores de conteúdo, profissionais e aventureiros.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <botao class="accordion-header">
+                    Nossa missão
+                    <i class="fa-solid fa-chevron-down"></i>
+                </botao>
+                <div class="accordion-content">
+                    <p>
+                        Entregar drones de alta performance que unem qualidade, durabilidade e design moderno. Queremos
+                        transformar a forma como pessoas e empresas registram momentos, exploram paisagens e contam
+                        histórias.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <botao class="accordion-header">
+                    Nosso diferencial
+                    <i class="fa-solid fa-chevron-down"></i>
+                </botao>
+                <div class="accordion-content">
+                    <p>
+                        Mais do que vender drones, oferecemos confiança. Cada produto é desenvolvido com foco em
+                        resistência, vida útil estendida e suporte dedicado, para garantir a melhor experiência em
+                        qualquer cenário.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="src/imagens/logo_aerodynamix.png" alt="Logo Aerodynamix">
+                <p>Transformando cada voo em uma experiência única.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="titulo-opcoes">Empresa</h3>
+                <ul>
+                    <li class="mais-footer"><a href="#">Sobre nós</a></li>
+                    <li class="mais-footer"><a href="#">Nossa missão</a></li>
+                    <li class="mais-footer"><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="titulo-opcoes">Produtos & Suporte</h3>
+                <ul>
+                    <li class="mais-footer"><a href="#">Catálogo de drones</a></li>
+                    <li class="mais-footer"><a href="#">Garantia & Suporte</a></li>
+                    <li class="mais-footer"><a href="#">Perguntas Frequentes (FAQ)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contato">
+                <h3>Fale com a gente:</h3>
+                <p>Receba novidades e lançamentos por email:</p>
+                <form>
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <a href="#" class="botao-default">
+                        <botao type="submit"><i class="fa-solid fa-envelope"></i></botao>
+                    </a>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Todos os direitos reservados
+        </div>
+    </footer>
+
+    <div id="produto-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-img">
+                <img id="modal-imagem" src="" alt="Produto">
+            </div>
+            <div class="modal-info">
+                <h2 id="modal-titulo"></h2>
+                <p id="modal-descricao"></p>
+                <ul id="modal-details"></ul>
+                <a class="botao-default">Comprar agora</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
