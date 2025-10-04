@@ -24,6 +24,8 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
       └─ script.js           # Lógica de interação e funcionalidades dinâmicas
 ```
 
+---
+
 ## ⚙️ Funcionalidades
 
 📱 **Menu de navegação responsivo:** disponível também no mobile, com animação de abertura e fechamento. Ao clicar em cada item do menu, o usuário é direcionado automaticamente para a seção correspondente da landing page.
@@ -38,7 +40,7 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 📩 **Formulário de captação de e-mail:** localizado no rodapé, permite que visitantes deixem seus contatos para receber novidades ou entrar em comunicação com a empresa.
 
-
+---
 
 ##🛠️ Tecnologias Utilizadas
 
@@ -56,7 +58,7 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 🖌️ **Figma** – Ferramenta de prototipagem utilizada para criar o design e a estrutura visual da landing page antes do desenvolvimento.
 
-
+---
 
 ##📸 Screenshots
 
@@ -81,6 +83,8 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 
 💡 **Observação:** As imagens acima representam a versão atual do projeto e ajudam a visualizar a estrutura e as principais seções da landing page.
+
+---
 
 ##✍️ Autor
 
