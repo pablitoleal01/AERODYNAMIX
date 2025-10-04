@@ -42,9 +42,9 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 ---
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-###O projeto Aerodynamix foi desenvolvido utilizando tecnologias essenciais da web e ferramentas de apoio ao design e desenvolvimento, garantindo leveza, desempenho e fácil manutenção:
+### O projeto Aerodynamix foi desenvolvido utilizando tecnologias essenciais da web e ferramentas de apoio ao design e desenvolvimento, garantindo leveza, desempenho e fácil manutenção:
 
 🌐 **HTML5** – Estruturação semântica de todo o conteúdo da página.
 
@@ -60,25 +60,25 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 ---
 
-##📸 Screenshots
+## 📸 Screenshots
 
-###Abaixo estão algumas capturas de tela das principais seções do projeto Aerodynamix:
+### Abaixo estão algumas capturas de tela das principais seções do projeto Aerodynamix:
 
-###Seção	Imagem
+### Seção	Imagem
 🏠 Página Inicial 
 <img width="1901" height="945" alt="image" src="https://github.com/user-attachments/assets/14cc3bb2-3749-4dbe-9683-853c8843eaaf" />
 
-###🛒 Seção de Produtos	
+### 🛒 Seção de Produtos	
 <img width="1901" height="944" alt="image" src="https://github.com/user-attachments/assets/0c520eb4-6272-4733-9ff8-7cd8324191e4" />
 <img width="1901" height="948" alt="image" src="https://github.com/user-attachments/assets/950f8e99-0f41-434f-84e1-93e2fe9186b3" />
 
-###🗣️ Seção de Depoimentos	
+### 🗣️ Seção de Depoimentos	
 <img width="1902" height="939" alt="image" src="https://github.com/user-attachments/assets/2feab37e-262c-4af0-8e44-20c0d8beed10" />
 
-###🏢 Sobre a Empresa	
+### 🏢 Sobre a Empresa	
 <img width="1903" height="848" alt="image" src="https://github.com/user-attachments/assets/b490f10d-e5e1-4515-b892-cf6c914b3519" />
 
-###📩 Rodapé e Formulário de Contato	
+### 📩 Rodapé e Formulário de Contato	
 <img width="1907" height="432" alt="image" src="https://github.com/user-attachments/assets/f55fe9b3-fda1-42ac-bfe6-8a5e555a8948" />
 
 
@@ -86,7 +86,7 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
 
 ---
 
-##✍️ Autor
+## ✍️ Autor
 
 Desenvolvido por Pablo Leal – Estudante de Engenharia da Computação no **SENAI CIMATEC**.
 Projeto criado como parte do processo seletivo para a CIMATEC Junior, empresa júnior do **SENAI CIMATEC**.
