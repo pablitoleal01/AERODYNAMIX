@@ -1,9 +1,13 @@
-🛸 Aerodynamix
+# 🛸 Aerodynamix
 
-Aerodynamix é uma landing page moderna e responsiva desenvolvida como parte do processo seletivo para a CIMATEC Junior, empresa júnior do SENAI CIMATEC.
+**Aerodynamix** é uma landing page moderna e responsiva desenvolvida como parte do processo seletivo para a **CIMATEC Junior**, empresa júnior do **SENAI CIMATEC**.  
 O projeto tem como objetivo apresentar produtos, depoimentos e informações de forma atrativa e funcional, demonstrando domínio em desenvolvimento front-end e atenção aos detalhes exigidos no processo seletivo.
 
-🏗️ Estrutura do Projeto
+---
+
+## 🏗️ Estrutura do Projeto
+
+```bash
 /
 ├─ index.html                 # Estrutura principal da página
 └─ src/
@@ -18,8 +22,6 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
    │  └─ footer.css
    └─ javascript/
       └─ script.js           # Lógica de interação e funcionalidades dinâmicas
-
-
 
 
 ⚙️ Funcionalidades
