@@ -22,7 +22,7 @@ O projeto tem como objetivo apresentar produtos, depoimentos e informações de 
    │  └─ footer.css
    └─ javascript/
       └─ script.js           # Lógica de interação e funcionalidades dinâmicas
-
+```
 
 ⚙️ Funcionalidades
 
